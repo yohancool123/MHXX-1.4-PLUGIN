@@ -1,6 +1,5 @@
 Monster Hunter Double Cross JPN v1.4
 0004000000197100
-このゲームは、コードを追加してゲーム内メニューを閉じる時、フリーズすることがあります
 This game may occasionally it freezes when adding a code and closing the in-game menu
  
 [All Pouch Items x99 v1.4]
@@ -24,21 +23,18 @@ A0000000 00000000
 D7000000 00000002
 D2000000 00000000
  
-(L+X)で所持金最大
 [(L+X)Max Money v1.4]
 DD000000 00000600
 B0D3FB30 00000000
 0000001C 0098967F
 D2000000 00000000
  
-(L+X)で龍歴院ポイント最大
 [(L+X)Max Wycademy Points v1.4]
 DD000000 00000600
 B0D3FB30 00000000
 00000024 0098967F
 D2000000 00000000
  
-(L+X)で狩技全開
 [(L+X)All Hunter Arts v1.4]
 DD000000 00000600
 B0D3FB30 00000000
@@ -50,7 +46,6 @@ B0D3FB30 00000000
 00000D30 7FFFFFFF
 D2000000 00000000
  
-(L+X)で全所持護石スロット3つ
 [(L+X)All talisman slot3 v1.4]
 DD000000 00000600
 B0D3B078 00000000
@@ -61,34 +56,27 @@ D0000000 00000000
 DC000000 0000002C
 D2000000 00000000
  
-モンスターペイント済み
 [Monster painted v1.4]
 008F1F24 E3A00001
 ※The place of monster is displayed by bottom screen map
  
-HP減らない
 [HP not decrease v1.4]
 0044161C E1D025F8
 00441638 E1C025B6
  
-スタミナ減らない
 [Stamina not decrease v1.4]
 00A6AE84 E3A00001
  
-戦闘用アイテム使っても減らない + ボウガンの弾減らない
 [Battle item & ammo not decrease v1.4]
 00353028 E3A08000
  
-ボウガン自動リロード
 [Bowgun automatic reload v1.4]
 002F9710 E5C407D2
 002F9718 E5C407D3
  
-ヘビィボルテージショットの弾無限
 [Unlimited bullets for squat mode v1.4]
 00A88438 E5C0101A
  
-ブレイブゲージMAX
 [Max brave gauge v1.4]
 002F3874 E3A00FFA
 002F3878 E58603EC
@@ -96,47 +84,38 @@ HP減らない
 002F38D4 E3800501
 002F38D8 E58603A8
  
-狩り技ゲージMAX
 [Hunter Arts gauge max v1.4]
 00A6EA94 E1D02BFE
 00A6EA98 E1C02BB8
 00A6EA9C E1520002
  
-錬気ゲージMAX
 [Spirit bar max v1.4]
 002E1528 E3A00001
 00309C60 E3A01064
  
-スーパーアーマー
 [Super armor v1.4]
 002F5EC8 E3A05001
 0031AA78 E3A00001
  
-黄色い鎧アイコンを消す
 [Hide yellow armor icon v1.4]
 00C6CCE8 0D1A0000
  
-プレイヤー無敵
 [Player invincible v1.4]
 00A11B0C E3A00000
  
-素材なくてもリストから調合可能
 [Combo list is no need materials v1.4]
 0039067C E3A00000
 009EA24C E3A00000
 009EA280 EA000000
  
-無限に採取、剥ぎ取り可能
 [Infinite picking v1.4]
 00847C38 E2400000
 00847D40 E2400000
 008CE2B0 E3A00000
  
-切れ味減らない
 [Sharpness not decrease v1.4]
 0035110C E59013D4
  
-常に切れ味紫
 [Always Purple Sharpness v1.4]
 0035110C E59013D4
 008FA0D4 E3A0400C
@@ -147,84 +126,67 @@ HP減らない
 00A9D708 02800002
 00A9D70C E12FFF1E
  
-会心率100%
 [Affinity 100% v1.4]
 008F98E0 E3A000C8
  
-会心率-100%(+スキルによる加算量)
 [Affinity -100%( + Sum of Affinity by Skills) v1.4]
 008F98E0 E3E00063
  
-卵を抱えずに運べる
 [Can carry without holding egg v1.4]
 00AD853C 93A00000
  
-地図を持ってなくても下画面にマップ表示される
 [Always displayed map by bottom screen v1.4]
 002A9B70 E3A00001
  
-自動マーキング常時発動
 [Always skill "Autotracker" enable v1.4]
 0038FB5C E3A00001
  
-全スタイルで狩技3つ装備できる
 [All style Hunter Arts slot 3 v1.4]
 00AEFBE4 E3A00003
 00AEFBE8 E12FFF1E
  
-アイテム、装備ボックス1,400個まで拡張
 [Item & equipment box expanded to 1,400 v1.4]
 009CBEB8 E3811606
 009CBEBC E5801950
 009CBEC0 E3A02002
 009CBEC4 E1A00000
  
-鎧アイコン常に表示
 [Always shows the armor icon v1.4]
 004E2144 E3A00702
  
-？アイコン強制表示
 [Force the "?" icon to appear v1.4]
 00243A08 E3A00001
  
-ニャンターサポートゲージMAX
 [Prowler Support Gauge Max v1.4]
 00A6E840 E3A01B09
 00A6E844 E58013DC
 00A6E848 E3A00001
 00A6E84C EA000000
  
-ニャンターモード会心率100%
 [Prowler Mode Affinity 100% v1.4]
 008FBB50 E3A000C8
 008FBB64 E3A000C8
  
-ニャンターモード経験値N倍
 [Prowler Mode EXP multiplier v1.4]
 008FBE60 E0814XX0
 XX=00:x1  08:x2  10:x4  18:x8  20:x16  28:x32  30:x64
  
-捕獲の見極め常時発動
 [Always skill "Capture Guru" enable v1.4]
 0038FD20 E3A00001
  
-爆弾、罠、肉を複数設置できる
 [Multiple bombs and traps and meat placement v1.4]
 00AE7648 E3A00001
 00C60510 000000FF
 00C60518 000000FF
 00C60520 000000FF
 00C60528 000000FF
-※設置した罠が壊せなくなります
 ※Will not able to destroy placed traps
  
-操虫棍の猟虫のスタミナ無限
 [Unlimited kinsect stamina v1.4]
 00619BA8 E2846C2F
 00619BAC E3A00F4B
 00619BB0 E1C603B4
  
-R+↑で最後に与えたダメージ表示、R+↓でオフ
 [(R+Up)Hit Monster Display Last Damage (R+Down)Off v1.4]
 00BF2FD4 E3A00001
 00BF2FD8 E584005C
@@ -249,7 +211,6 @@ DD000000 00000180 <- R+Down
 00243E8C E3E00000
 D0000000 00000000
  
-操虫棍エキス時間無限
 [Unlimited kinsect extract time v1.4]
 00BF2FC0 E3510000
 00BF2FC4 E3A01445
@@ -259,7 +220,6 @@ D0000000 00000000
 00A88D10 E590131C
 00A88D14 EA05A8A9
  
-操虫棍常にトリプルアップ状態
 [Kinsect extract is always triple up v1.4]
 00BF2FC0 E3510000
 00BF2FC4 E3A01445
@@ -269,7 +229,6 @@ D0000000 00000000
 00A88D10 E590131C
 00A88D14 EA05A8A9
  
-装備スキルのスロットを24個拡張
 [Armor skill extension slot +24 v1.4]
 008F6804 E3A01029
 008F6814 13A04096
@@ -336,7 +295,6 @@ XXXX;Armor skill list
 https://gbatemp.net/posts/7199352
 Thanks@kamesenin888
  
-与えたダメージアイテム個数で表示
 [Hit Monster Display Last Damage v1.4]
 00BF2EA8 E2610000
 00BF2EAC E59FC008
@@ -352,7 +310,6 @@ A0000000 00000000
 D7000000 00000002
 D2000000 00000000
  
-フィールドでL+←で俯瞰視点、L+→で通常視点
 [(L+Left)Battlefield Bird's-eye view (L+Right)Off v1.4]
 00BF2E80 ED940A11
 00BF2E84 ED9F1A03
@@ -367,10 +324,8 @@ D0000000 00000000
 DD000000 00000210
 00357910 E5940000
 D0000000 00000000
-フィールドのみ効果あり。村・集会所では効果なし。
 Only battlefield has effect. There is no effect in the Village/Hub.
  
-全アイテム最大所持数99
 [Maximum hold number of all items 99 v1.4]
 00BF2E20 E5940418
 00BF2E24 E92D4007
@@ -398,7 +353,6 @@ Only battlefield has effect. There is no effect in the Village/Hub.
 00BF2E7C 00028E48
 00127ECC EB2B2BD3
  
-大剣タメ高速化
 [Great sword Charge speed faster v1.4]
 00BF2DF4 E24F0000
 00BF2DF8 EAF9903E
@@ -414,7 +368,6 @@ Only battlefield has effect. There is no effect in the Village/Hub.
 002FC080 EA23DB5B
 00A56F10 EA066FB9
  
-X+↑でニャンターモード防御力N倍、X+↓で1倍
 [(X+Up)Prowler Mode Defense multiplier (X+Down)x1 v1.4]
 508FB5F4 E18100B5
 00BF2DD0 E92D4004
@@ -446,7 +399,6 @@ D3000000 00000000
 0035D7BC 0A000002
 D0000000 00000000
  
-Y+↑でニャンターモード攻撃力N倍、Y+↓で1倍
 [(Y+Up)Prowler Mode Attck multiplier (Y+Down)x1 v1.4]
 508FAB08 E3A01010
 00BF2D90 E92D400C
@@ -485,7 +437,6 @@ D3000000 00000000
 0035D7BC 0A000002
 D0000000 00000000
  
-L+↑でダメージを与えたモンスターのHP表示、L+↓でオフ
 [(L+Up)Hit Monster Display HP (L+Down)Off v1.4]
 00BF2D50 E3A00001
 00BF2D54 E584005C
@@ -515,7 +466,6 @@ DD000000 00000280 <- L+Down
 00243E8C E3E00000
 D0000000 00000000
  
-L+Bで全モンスター状態異常、R+Bでオフ
 [(L+B)All monster abnormal status (R+B)Off v1.4]
 00BF2D2C E92D4005
 00BF2D30 E59F2014
@@ -533,7 +483,6 @@ DD000000 00000102 <- R+B
 008BCE1C E2811F6B
 D0000000 00000000
  
-X+↑でプレイヤー防御力N倍、X+↓で1倍
 [(X+Up)Player Defense multiplier (X+Down)x1 v1.4]
 DD000000 00000440 <- X+Up
 00BF2D10 E92D4004
@@ -550,7 +499,6 @@ DD000000 00000480 <- X+Down
 D0000000 00000000
 MAX32000
  
-Y+↑でプレイヤー攻撃力N倍、Y+↓で1倍
 [(Y+Up)Player Attck multiplier (Y+Down)x1 v1.4]
 DD000000 00000840 <- Y+Up
 00BF2CE0 E92D4018
@@ -569,7 +517,6 @@ DD000000 00000880 <- Y+Down
 D0000000 00000000
 MAX32000
  
-SELECT+Lでプレイヤー速度N倍、SELECT+Rで1倍
 [(SELECT+L)Player speed multiplier (SELECT+R) x1 v1.4]
 DD000000 00000204 <- SELECT+L
 00BF2CB0 ED9F1A04
@@ -592,7 +539,6 @@ DD000000 00000104 <- SELECT+R
 D0000000 00000000
 XXXXXXXX=x1.5:3FC00000, x2:40000000, x2.5:40200000, x3:40400000
  
-加工屋で生産できる武器、防具、装飾品全開+素材不要
 [Produce equipment list completed & No need materials v1.4]
 00B00B50 E3A00001
 00B00A84 E3A00001
